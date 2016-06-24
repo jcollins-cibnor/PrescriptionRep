@@ -14,6 +14,7 @@
 		613E08E71D1CF6E20001F98A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 613E08E51D1CF6E20001F98A /* LaunchScreen.storyboard */; };
 		613E08F21D1CF6E20001F98A /* PrescriptionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 613E08F11D1CF6E20001F98A /* PrescriptionTests.swift */; };
 		613E08FD1D1CF6E20001F98A /* PrescriptionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 613E08FC1D1CF6E20001F98A /* PrescriptionUITests.swift */; };
+		613E090B1D1CFDB30001F98A /* MapPharmacy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 613E090A1D1CFDB30001F98A /* MapPharmacy.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		613E08F81D1CF6E20001F98A /* PrescriptionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PrescriptionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		613E08FC1D1CF6E20001F98A /* PrescriptionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrescriptionUITests.swift; sourceTree = "<group>"; };
 		613E08FE1D1CF6E20001F98A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		613E090A1D1CFDB30001F98A /* MapPharmacy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapPharmacy.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				613E08E31D1CF6E20001F98A /* Assets.xcassets */,
 				613E08E51D1CF6E20001F98A /* LaunchScreen.storyboard */,
 				613E08E81D1CF6E20001F98A /* Info.plist */,
+				613E090A1D1CFDB30001F98A /* MapPharmacy.swift */,
 			);
 			path = Prescription;
 			sourceTree = "<group>";
@@ -257,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				613E08DF1D1CF6E20001F98A /* ViewController.swift in Sources */,
+				613E090B1D1CFDB30001F98A /* MapPharmacy.swift in Sources */,
 				613E08DD1D1CF6E20001F98A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
